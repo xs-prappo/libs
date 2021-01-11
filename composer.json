@@ -15,5 +15,9 @@
     "autoload": {
        "files": ["pro-awareness/src/pro-awareness.php"]
     },
-    "require": {} 
+    "extra": {
+        "installer-paths": {
+            "sites/example.com/modules/{$name}": ["vendor/package"]
+        }
+    }
 }
