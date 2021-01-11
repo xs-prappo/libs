@@ -1,0 +1,19 @@
+{
+    "name": "xs-prappo/pro-awareness",
+    "description": "A library to add plugin tags",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "config": {
+        "vendor-dir": "wpmet"
+    },
+    "authors": [
+        {
+            "name": "Prappo Islam",
+            "email": "prappo@xpeedstudio.com"
+        }
+    ],
+    "autoload": {
+       "files": ["pro-awareness/src/pro-awareness.php"]
+    },
+    "require": {} 
+}
